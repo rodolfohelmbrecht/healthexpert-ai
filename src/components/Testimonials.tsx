@@ -4,23 +4,23 @@ const Testimonials = () => {
   const testimonials = [
     {
       name: "Dr. Marina Silva",
-      role: "Cardiologista",
+      role: "Cardióloga",
       clinic: "Clínica CardioVida",
-      content: "Reduzi 70% do tempo gasto com agendamentos. Agora posso focar totalmente nos meus pacientes. A IA é incrivelmente precisa!",
+      content: "Reduje 70% del tiempo dedicado a citas. Ahora puedo enfocarme totalmente en mis pacientes. ¡La IA es increíblemente precisa!",
       rating: 5,
     },
     {
       name: "Dr. Carlos Mendes",
       role: "Pediatra",
-      clinic: "Clínica Infantil Sorriso",
-      content: "Os pais adoram receber as receitas automaticamente no WhatsApp. Menos ligações, mais organização. Revolucionou minha prática!",
+      clinic: "Clínica Infantil Sonrisa",
+      content: "Los padres adoran recibir las recetas automáticamente por WhatsApp. Menos llamadas, más organización. ¡Revolucionó mi práctica!",
       rating: 5,
     },
     {
       name: "Dra. Ana Beatriz",
-      role: "Dermatologista",
+      role: "Dermatóloga",
       clinic: "DermaCare",
-      content: "O follow-up automático melhorou muito a aderência dos pacientes ao tratamento. Resultados que eu não esperava!",
+      content: "El seguimiento automático mejoró mucho la adherencia de pacientes al tratamiento. ¡Resultados que no esperaba!",
       rating: 5,
     },
   ];
@@ -30,12 +30,12 @@ const Testimonials = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-foreground mb-4">
-            O que dizem os
+            Lo que dicen los
             <span className="bg-gradient-hero bg-clip-text text-transparent"> médicos </span>
-            que já usam
+            que ya la usan
           </h2>
           <p className="text-xl text-muted-foreground">
-            Transformando clínicas em todo o Brasil
+            Transformando clínicas en toda Latinoamérica
           </p>
         </div>
 
@@ -75,12 +75,12 @@ const Testimonials = () => {
             <div className="w-px h-8 bg-border"></div>
             <div className="text-center">
               <div className="text-2xl font-bold text-foreground">98%</div>
-              <div className="text-sm text-muted-foreground">Satisfação</div>
+              <div className="text-sm text-muted-foreground">Satisfacción</div>
             </div>
             <div className="w-px h-8 bg-border"></div>
             <div className="text-center">
               <div className="text-2xl font-bold text-foreground">60%</div>
-              <div className="text-sm text-muted-foreground">Economia de tempo</div>
+              <div className="text-sm text-muted-foreground">Ahorro de tiempo</div>
             </div>
           </div>
         </div>

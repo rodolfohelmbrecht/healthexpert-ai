@@ -6,33 +6,33 @@ const Pricing = () => {
     {
       name: "Starter",
       icon: Zap,
-      price: "R$ 297",
-      period: "/mês",
-      description: "Perfeito para clínicas pequenas",
+      price: "$97",
+      period: "/mes",
+      description: "Perfecto para clínicas pequeñas",
       features: [
-        "Até 500 agendamentos/mês",
-        "Atendimento automatizado básico",
-        "Receitas digitais",
-        "Follow-up simples",
-        "Suporte por email",
-        "Integração WhatsApp",
+        "Hasta 500 citas/mes",
+        "Atención automatizada básica",
+        "Recetas digitales",
+        "Seguimiento simple",
+        "Soporte por email",
+        "Integración WhatsApp",
       ],
       popular: false,
     },
     {
       name: "Professional", 
       icon: Crown,
-      price: "R$ 597",
-      period: "/mês",
-      description: "Ideal para clínicas em crescimento",
+      price: "$197",
+      period: "/mes",
+      description: "Ideal para clínicas en crecimiento",
       features: [
-        "Agendamentos ilimitados",
-        "IA avançada personalizada",
-        "Receitas + laudos digitais",
-        "Follow-up completo",
-        "Suporte prioritário",
-        "Integração completa (WhatsApp, SMS, Email)",
-        "Relatórios detalhados",
+        "Citas ilimitadas",
+        "IA avanzada personalizada",
+        "Recetas + informes digitales",
+        "Seguimiento completo",
+        "Soporte prioritario",
+        "Integración completa (WhatsApp, SMS, Email)",
+        "Reportes detallados",
         "API personalizada",
       ],
       popular: true,
@@ -40,18 +40,18 @@ const Pricing = () => {
     {
       name: "Enterprise",
       icon: Users,
-      price: "Sob consulta",
+      price: "Bajo consulta",
       period: "",
       description: "Para redes de clínicas",
       features: [
-        "Tudo do Professional",
-        "Múltiplas clínicas",
+        "Todo lo del Professional",
+        "Múltiples clínicas",
         "IA especializada por área médica",
-        "Integração com sistemas próprios",
-        "Suporte 24/7 dedicado",
-        "Treinamento da equipe",
-        "Manager de sucesso",
-        "SLA garantido",
+        "Integración con sistemas propios",
+        "Soporte 24/7 dedicado",
+        "Entrenamiento del equipo",
+        "Manager de éxito",
+        "SLA garantizado",
       ],
       popular: false,
     },
@@ -62,11 +62,11 @@ const Pricing = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-foreground mb-4">
-            Planos que cabem no seu
-            <span className="bg-gradient-hero bg-clip-text text-transparent"> orçamento </span>
+            Planes que se ajustan a tu
+            <span className="bg-gradient-hero bg-clip-text text-transparent"> presupuesto </span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Escolha o plano ideal para sua clínica. Todos incluem teste grátis de 14 dias.
+            Elige el plan ideal para tu clínica. Todos incluyen prueba gratis de 14 días.
           </p>
         </div>
 
@@ -128,7 +128,7 @@ const Pricing = () => {
                   size="lg" 
                   className="w-full"
                 >
-                  {plan.name === "Enterprise" ? "Falar com Vendas" : "Começar Teste Grátis"}
+                  {plan.name === "Enterprise" ? "Hablar con Ventas" : "Comenzar Prueba Gratis"}
                 </Button>
               </div>
             </div>
@@ -137,10 +137,10 @@ const Pricing = () => {
 
         <div className="text-center mt-16 space-y-4">
           <p className="text-muted-foreground">
-            💳 Sem cartão de crédito necessário para o teste
+            💳 Sin tarjeta de crédito necesaria para la prueba
           </p>
           <p className="text-sm text-muted-foreground">
-            Cancelamento a qualquer momento • Suporte em português • Dados seguros no Brasil
+            Cancelación en cualquier momento • Soporte en español • Datos seguros
           </p>
         </div>
       </div>

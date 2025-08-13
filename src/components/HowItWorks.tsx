@@ -4,23 +4,23 @@ const HowItWorks = () => {
   const steps = [
     {
       number: "01",
-      title: "Configuração Simples",
-      description: "Nossa equipe configura a IA em 24h com os dados da sua clínica. Sem complicação, sem código.",
+      title: "Configuración Simple",
+      description: "Nuestro equipo configura la IA en 24h con los datos de tu clínica. Sin complicaciones, sin código.",
     },
     {
       number: "02", 
-      title: "Treinamento Personalizado",
-      description: "A IA aprende sobre sua especialidade, protocolos e forma de atendimento para ser mais eficiente.",
+      title: "Entrenamiento Personalizado",
+      description: "La IA aprende sobre tu especialidad, protocolos y forma de atención para ser más eficiente.",
     },
     {
       number: "03",
-      title: "Integração Completa",
-      description: "Conectamos com seu sistema atual (agenda, WhatsApp, SMS) para automação total.",
+      title: "Integración Completa",
+      description: "Conectamos con tu sistema actual (agenda, WhatsApp, SMS) para automatización total.",
     },
     {
       number: "04",
-      title: "Resultados Imediatos",
-      description: "Comece a economizar tempo e melhorar o atendimento desde o primeiro dia de uso.",
+      title: "Resultados Inmediatos",
+      description: "Comienza a ahorrar tiempo y mejorar la atención desde el primer día de uso.",
     },
   ];
 
@@ -29,12 +29,12 @@ const HowItWorks = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-foreground mb-4">
-            Como
+            Cómo
             <span className="bg-gradient-hero bg-clip-text text-transparent"> implementamos </span>
-            na sua clínica
+            en tu clínica
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Processo simples e rápido para ter sua IA funcionando perfeitamente em poucos dias.
+            Proceso simple y rápido para tener tu IA funcionando perfectamente en pocos días.
           </p>
         </div>
 
@@ -67,7 +67,7 @@ const HowItWorks = () => {
         <div className="text-center mt-16">
           <div className="inline-flex items-center space-x-2 px-6 py-3 bg-card rounded-full border border-border">
             <div className="w-3 h-3 bg-secondary rounded-full animate-pulse"></div>
-            <span className="text-sm font-medium text-foreground">Implementação média: 2-3 dias</span>
+            <span className="text-sm font-medium text-foreground">Implementación promedio: 2-3 días</span>
           </div>
         </div>
       </div>

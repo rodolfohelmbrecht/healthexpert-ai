@@ -6,38 +6,38 @@ const Features = () => {
   const features = [
     {
       icon: Calendar,
-      title: "Agendamento Inteligente",
-      description: "IA agenda e reagenda consultas automaticamente, otimizando sua agenda e reduzindo faltas.",
+      title: "Citas Inteligentes",
+      description: "IA programa y reprograma consultas automáticamente, optimizando tu agenda y reduciendo faltas.",
       image: schedulingImage,
     },
     {
       icon: MessageSquare,
-      title: "Atendimento Automatizado",
-      description: "Chatbot especializado responde dúvidas dos pacientes 24/7, liberando sua equipe para focar no essencial.",
+      title: "Atención Automatizada",
+      description: "Chatbot especializado responde dudas de pacientes 24/7, liberando tu equipo para enfocarse en lo esencial.",
       image: null,
     },
     {
       icon: FileText,
-      title: "Receitas Digitais",
-      description: "Envio automático de receitas médicas para pacientes via WhatsApp, email ou SMS.",
+      title: "Recetas Digitales",
+      description: "Envío automático de recetas médicas a pacientes vía WhatsApp, email o SMS.",
       image: prescriptionsImage,
     },
     {
       icon: Heart,
-      title: "Follow-up Personalizado",
-      description: "Acompanhamento pós-consulta automatizado para verificar como o paciente está se sentindo.",
+      title: "Seguimiento Personalizado",
+      description: "Seguimiento post-consulta automatizado para verificar cómo se siente el paciente.",
       image: null,
     },
     {
       icon: Clock,
-      title: "Economize Tempo",
-      description: "Reduza até 60% do tempo administrativo e foque no que realmente importa: cuidar dos pacientes.",
+      title: "Ahorra Tiempo",
+      description: "Reduce hasta 60% del tiempo administrativo y enfócate en lo que realmente importa: cuidar pacientes.",
       image: null,
     },
     {
       icon: Users,
-      title: "Experiência do Paciente",
-      description: "Melhore a satisfação dos pacientes com atendimento rápido, eficiente e disponível 24/7.",
+      title: "Experiencia del Paciente",
+      description: "Mejora la satisfacción de pacientes con atención rápida, eficiente y disponible 24/7.",
       image: null,
     },
   ];
@@ -48,11 +48,11 @@ const Features = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-foreground mb-4">
             Funcionalidades que
-            <span className="bg-gradient-hero bg-clip-text text-transparent"> transformam </span>
-            sua clínica
+            <span className="bg-gradient-hero bg-clip-text text-transparent"> transforman </span>
+            tu clínica
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Nossa IA foi desenvolvida especialmente para clínicas de saúde, automatizando processos e melhorando a experiência de pacientes e profissionais.
+            Nuestra IA fue desarrollada especialmente para clínicas de salud, automatizando procesos y mejorando la experiencia de pacientes y profesionales.
           </p>
         </div>
 

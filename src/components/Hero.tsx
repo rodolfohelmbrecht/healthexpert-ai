@@ -12,31 +12,31 @@ const Hero = () => {
               <h1 className="text-5xl lg:text-6xl font-bold text-foreground leading-tight">
                 IA que
                 <span className="bg-gradient-hero bg-clip-text text-transparent"> revoluciona </span>
-                sua clínica
+                tu clínica
               </h1>
               <p className="text-xl text-muted-foreground max-w-lg">
-                Automatize agendamentos, receitas médicas e follow-ups com nossa IA especializada para clínicas de saúde. Mais tempo para cuidar dos pacientes.
+                Automatiza citas, recetas médicas y seguimientos con nuestra IA especializada para clínicas de salud. Más tiempo para cuidar a los pacientes.
               </p>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
               <Button variant="hero" size="lg" className="text-lg px-8 py-6 h-auto">
-                Começar Teste Grátis
+                Comenzar Prueba Gratis
                 <ArrowRight className="w-5 h-5" />
               </Button>
               <Button variant="outline" size="lg" className="text-lg px-8 py-6 h-auto">
-                Ver Demonstração
+                Ver Demostración
               </Button>
             </div>
 
             <div className="flex items-center gap-8 pt-4">
               <div className="flex items-center gap-2">
                 <Calendar className="w-5 h-5 text-primary" />
-                <span className="text-sm text-muted-foreground">Agendamentos automáticos</span>
+                <span className="text-sm text-muted-foreground">Citas automáticas</span>
               </div>
               <div className="flex items-center gap-2">
                 <MessageSquare className="w-5 h-5 text-primary" />
-                <span className="text-sm text-muted-foreground">Atendimento 24/7</span>
+                <span className="text-sm text-muted-foreground">Atención 24/7</span>
               </div>
             </div>
           </div>

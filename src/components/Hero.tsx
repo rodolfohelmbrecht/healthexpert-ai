@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Calendar, MessageSquare, FileText, Heart } from "lucide-react";
-import heroImage from "@/assets/hero-medical-ai.jpg";
+import heroImage from "@/assets/hero-humanized-medical.jpg";
 
 const Hero = () => {
   return (
@@ -10,12 +10,12 @@ const Hero = () => {
           <div className="space-y-8">
             <div className="space-y-4">
               <h1 className="text-5xl lg:text-6xl font-bold text-foreground leading-tight">
-                Incrementa la
-                <span className="bg-gradient-hero bg-clip-text text-transparent"> conversión </span>
-                de tu clínica
+                Transforma tu clínica con
+                <span className="bg-gradient-hero bg-clip-text text-transparent"> IA conversacional </span>
+                en WhatsApp
               </h1>
               <p className="text-xl text-muted-foreground max-w-lg">
-                Reduce no-show, acelera agendamiento y mejora CSAT con Agentes IA + WhatsApp Flows. Centraliza todo en un solo lugar.
+                Automatiza agendamiento, reduce no-show hasta 40% y mejora la experiencia del paciente con Agentes IA que trabajan 24/7 por WhatsApp.
               </p>
             </div>
 

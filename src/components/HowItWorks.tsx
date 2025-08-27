@@ -4,23 +4,23 @@ const HowItWorks = () => {
   const steps = [
     {
       number: "01",
-      title: "Configuración Simple",
-      description: "Nuestro equipo configura la IA en 24h con los datos de tu clínica. Sin complicaciones, sin código.",
+      title: "Captura desde Anuncios",
+      description: "Click-to-WhatsApp desde Meta Ads o QR en recepción. Lead-enrichment automático con metadata de campaña para mejor conversión.",
     },
     {
       number: "02", 
-      title: "Entrenamiento Personalizado",
-      description: "La IA aprende sobre tu especialidad, protocolos y forma de atención para ser más eficiente.",
+      title: "FAQ + Orientación IA",
+      description: "Agente LLM responde consultas seguras con RAG. ASR para audios y OCR para fotos de órdenes médicas con extracción automática.",
     },
     {
       number: "03",
-      title: "Integración Completa",
-      description: "Conectamos con tu sistema actual (agenda, WhatsApp, SMS) para automatización total.",
+      title: "Agendamiento + Pago",
+      description: "WhatsApp Flows con slots en tiempo real del sistema de la clínica. Pagos dentro del chat con comprobante automático.",
     },
     {
       number: "04",
-      title: "Resultados Inmediatos",
-      description: "Comienza a ahorrar tiempo y mejorar la atención desde el primer día de uso.",
+      title: "Confirmación + Seguimiento",
+      description: "Recordatorios 24h antes, check-in por Flow, entrega de recetas post-cita y encuestas CSAT. Upsell ético personalizado.",
     },
   ];
 

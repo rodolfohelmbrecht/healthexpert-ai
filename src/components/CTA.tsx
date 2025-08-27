@@ -17,12 +17,22 @@ const CTA = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button variant="hero" size="lg" className="text-lg px-8 py-6 h-auto">
-              Comenzar Prueba Gratis Ahora
+            <Button 
+              variant="hero" 
+              size="lg" 
+              className="text-lg px-8 py-6 h-auto"
+              onClick={() => window.open('https://wa.me/5491234567890?text=Quiero%20comenzar%20con%20MedAssist%20en%20mi%20clínica', '_blank')}
+            >
+              Comenzar Ahora
               <ArrowRight className="w-5 h-5" />
             </Button>
-            <Button variant="outline" size="lg" className="text-lg px-8 py-6 h-auto">
-              Programar Demostración
+            <Button 
+              variant="outline" 
+              size="lg" 
+              className="text-lg px-8 py-6 h-auto"
+              onClick={() => window.open('https://wa.me/5491234567890?text=Quiero%20una%20demo%20personalizada%20de%20MedAssist', '_blank')}
+            >
+              Programar Demo
             </Button>
           </div>
 

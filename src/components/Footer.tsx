@@ -4,8 +4,7 @@ const Footer = () => {
   return (
     <footer className="bg-foreground text-background">
       <div className="container mx-auto px-4 py-16">
-        <div className="grid md:grid-cols-4 gap-8">
-          {/* Logo e Descrição */}
+        <div className="grid md:grid-cols-2 gap-8">
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-gradient-hero rounded-lg flex items-center justify-center">
@@ -14,49 +13,26 @@ const Footer = () => {
               <span className="font-bold text-xl">MedAssist</span>
             </div>
             <p className="text-background/80 text-sm leading-relaxed">
-              IA especializada para clínicas de salud. Automatiza citas, recetas y seguimientos para enfocarte en lo que realmente importa: cuidar pacientes.
+              Incrementa conversión de leads, reduce no-show y mejora CSAT con Agentes IA + WhatsApp Flows para clínicas.
             </p>
+            <button 
+              className="inline-flex items-center px-4 py-2 bg-gradient-hero text-white rounded-lg hover:opacity-90 transition-opacity text-sm"
+              onClick={() => window.open('https://wa.me/5491234567890?text=Hola%2C%20quiero%20conocer%20más%20sobre%20MedAssist', '_blank')}
+            >
+              Contactar por WhatsApp
+            </button>
           </div>
 
-          {/* Produto */}
-          <div>
-            <h4 className="font-semibold mb-4">Producto</h4>
+          <div className="space-y-4">
+            <h4 className="font-semibold mb-4">Beneficios Clave</h4>
             <ul className="space-y-2 text-sm text-background/80">
-              <li><a href="#funcionalidades" className="hover:text-background transition-colors">Funcionalidades</a></li>
-              <li><a href="#como-funciona" className="hover:text-background transition-colors">Cómo Funciona</a></li>
-              <li><a href="#precos" className="hover:text-background transition-colors">Precios</a></li>
-              <li><a href="#" className="hover:text-background transition-colors">Demostración</a></li>
+              <li>✓ +20-30% conversión de leads a citas</li>
+              <li>✓ -20-40% reducción de no-show</li>
+              <li>✓ -50-60% tiempo de respuesta</li>
+              <li>✓ +10pp mejora en CSAT/NPS</li>
+              <li>✓ Integración con WhatsApp Flows</li>
+              <li>✓ ASR + OCR + Agentes IA</li>
             </ul>
-          </div>
-
-          {/* Empresa */}
-          <div>
-            <h4 className="font-semibold mb-4">Empresa</h4>
-            <ul className="space-y-2 text-sm text-background/80">
-              <li><a href="#" className="hover:text-background transition-colors">Acerca de</a></li>
-              <li><a href="#" className="hover:text-background transition-colors">Blog</a></li>
-              <li><a href="#" className="hover:text-background transition-colors">Carreras</a></li>
-              <li><a href="#" className="hover:text-background transition-colors">Contacto</a></li>
-            </ul>
-          </div>
-
-          {/* Contato */}
-          <div>
-            <h4 className="font-semibold mb-4">Contacto</h4>
-            <div className="space-y-3 text-sm text-background/80">
-              <div className="flex items-center space-x-2">
-                <Mail className="w-4 h-4" />
-                <span>contacto@medassist.com</span>
-              </div>
-              <div className="flex items-center space-x-2">
-                <Phone className="w-4 h-4" />
-                <span>+1 (555) 123-4567</span>
-              </div>
-              <div className="flex items-center space-x-2">
-                <MapPin className="w-4 h-4" />
-                <span>Miami, FL</span>
-              </div>
-            </div>
           </div>
         </div>
 

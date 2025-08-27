@@ -10,33 +10,43 @@ const Hero = () => {
           <div className="space-y-8">
             <div className="space-y-4">
               <h1 className="text-5xl lg:text-6xl font-bold text-foreground leading-tight">
-                IA que
-                <span className="bg-gradient-hero bg-clip-text text-transparent"> revoluciona </span>
-                tu clínica
+                Incrementa la
+                <span className="bg-gradient-hero bg-clip-text text-transparent"> conversión </span>
+                de tu clínica
               </h1>
               <p className="text-xl text-muted-foreground max-w-lg">
-                Automatiza citas, recetas médicas y seguimientos con nuestra IA especializada para clínicas de salud. Más tiempo para cuidar a los pacientes.
+                Reduce no-show, acelera agendamiento y mejora CSAT con Agentes IA + WhatsApp Flows. Centraliza todo en un solo lugar.
               </p>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button variant="hero" size="lg" className="text-lg px-8 py-6 h-auto">
-                Comenzar Prueba Gratis
+              <Button 
+                variant="hero" 
+                size="lg" 
+                className="text-lg px-8 py-6 h-auto"
+                onClick={() => window.open('https://wa.me/5491234567890?text=Quiero%20una%20demo%20de%20MedAssist%20para%20mi%20clínica', '_blank')}
+              >
+                Solicitar Demo
                 <ArrowRight className="w-5 h-5" />
               </Button>
-              <Button variant="outline" size="lg" className="text-lg px-8 py-6 h-auto">
-                Ver Demostración
+              <Button 
+                variant="outline" 
+                size="lg" 
+                className="text-lg px-8 py-6 h-auto"
+                onClick={() => window.open('https://wa.me/5491234567890?text=Hola%2C%20quiero%20conocer%20más%20sobre%20MedAssist', '_blank')}
+              >
+                Contactar por WhatsApp
               </Button>
             </div>
 
             <div className="flex items-center gap-8 pt-4">
               <div className="flex items-center gap-2">
                 <Calendar className="w-5 h-5 text-primary" />
-                <span className="text-sm text-muted-foreground">Citas automáticas</span>
+                <span className="text-sm text-muted-foreground">Agendamiento por WhatsApp</span>
               </div>
               <div className="flex items-center gap-2">
                 <MessageSquare className="w-5 h-5 text-primary" />
-                <span className="text-sm text-muted-foreground">Atención 24/7</span>
+                <span className="text-sm text-muted-foreground">Flows + Agentes IA</span>
               </div>
             </div>
           </div>

@@ -17,7 +17,7 @@ const Footer = () => {
             </p>
             <button 
               className="inline-flex items-center px-4 py-2 bg-gradient-hero text-white rounded-lg hover:opacity-90 transition-opacity text-sm"
-              onClick={() => window.open('https://wa.me/5491234567890?text=Hola%2C%20quiero%20conocer%20más%20sobre%20MedAssist', '_blank')}
+              onClick={() => window.open('https://wa.me/14158147249?text=Hola%2C%20quiero%20conocer%20más%20sobre%20MedAssist', '_blank')}
             >
               Contactar por WhatsApp
             </button>

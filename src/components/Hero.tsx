@@ -24,7 +24,7 @@ const Hero = () => {
                 variant="hero" 
                 size="lg" 
                 className="text-lg px-8 py-6 h-auto"
-                onClick={() => window.open('https://wa.me/5491234567890?text=Quiero%20una%20demo%20de%20MedAssist%20para%20mi%20clínica', '_blank')}
+                onClick={() => window.open('https://wa.me/14158147249?text=Quiero%20una%20demo%20de%20MedAssist%20para%20mi%20clínica', '_blank')}
               >
                 Solicitar Demo
                 <ArrowRight className="w-5 h-5" />
@@ -33,7 +33,7 @@ const Hero = () => {
                 variant="outline" 
                 size="lg" 
                 className="text-lg px-8 py-6 h-auto"
-                onClick={() => window.open('https://wa.me/5491234567890?text=Hola%2C%20quiero%20conocer%20más%20sobre%20MedAssist', '_blank')}
+                onClick={() => window.open('https://wa.me/14158147249?text=Hola%2C%20quiero%20conocer%20más%20sobre%20MedAssist', '_blank')}
               >
                 Contactar por WhatsApp
               </Button>

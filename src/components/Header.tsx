@@ -27,7 +27,7 @@ const Header = () => {
           <Button 
             variant="cta" 
             size="lg" 
-            onClick={() => window.open('https://wa.me/5491234567890?text=Hola%2C%20quiero%20conocer%20más%20sobre%20MedAssist', '_blank')}
+            onClick={() => window.open('https://wa.me/14158147249?text=Hola%2C%20quiero%20conocer%20más%20sobre%20MedAssist', '_blank')}
           >
             Contactar por WhatsApp
           </Button>
